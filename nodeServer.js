@@ -59,7 +59,7 @@ app.use(function (req, res, next) {
    var mailOption = {
        from: "rudwls1378@gmail.com",
        to: req.body.email,
-       subject : "인증해줘~",
+       subject : "Bfree 임시 비밀번호 발송 안내 메일입니다.",
        html : "<div align='center' style='border:1px solid black; font-family:verdana'>" 
        + "<h3 style='color: blue;'>" + req.body.name + "님의 임시 비밀번호 입니다. <br/>비밀번호를 변경하여 사용하세요.</h3>" 
        +  "<p>임시 비밀번호 : " + req.body.password + "</p><br/>" 
